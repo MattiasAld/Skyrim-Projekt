@@ -1,0 +1,58 @@
+body {
+	background-color: black;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	font-family: Georgia;
+	font-style: italic; /* Cursive */
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
+	text-align: center;
+	color:white;
+}
+
+nav{
+	width: 80%;
+	height: 80px;
+	margin: 10px auto 0px auto;
+}
+
+nav a{
+	color:white;
+}
+
+nav a:hover{ /* How it looks when you hover with muose */
+	color:orange;
+}
+
+#current{ 
+	text-decoration:none;	
+}
+
+.navLink{
+	position:relative;
+	float:left;
+	width:20%;	
+	height:76px;
+}
+
+.container{
+	position:relative;
+	width: 80%;
+	margin: 0px auto 0px auto; /* top right bottom left */
+	border: 3px white solid; /* border-width border-color border-style*/
+	border-radius:10px;
+	
+	
+}
+
+.img{
+		position:center;
+		height:1%;
+		width:1%;
+		margin: auto auto auto auto;
+		
+	
+	
+	
+	
+}
