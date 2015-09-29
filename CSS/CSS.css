@@ -3,6 +3,13 @@ body {
 	background-image: url(../Images/Dragonborn.png);
 }
 
+#LoreBody{
+	background-color:black;
+
+
+}
+
+
 #AltmerBody{
 	
 background-image: url(../Images/HighElf.png);
@@ -23,7 +30,18 @@ background-image: url(../Images/ArgonianBody.png);
 	
 	
 }
+
+#BretonBody{
+		background-image: url(../Images/BretonBody.png);
+
+}
 	
+#KhajiitBody{
+		background-image: url(../Images/KhajiitBody.png);
+
+
+}
+
 h1,h2,h3,h4,h5,h6,p{
 	font-family: Georgia;
 	font-style: italic; /* Cursive */
@@ -60,10 +78,10 @@ nav a:hover{ /* How it looks when you hover with muose */
 
 .container1,.container2,.container3,.container4{
 	position:relative;
-	width: 90%;
+	width: 92%;
 	margin: 0px auto 0px auto; /* top right bottom left */
 	border: 20px white solid; /* border-width border-color border-style*/
-	border-radius:200px;
+	border-radius:50px;
 	
 	
 	
@@ -90,8 +108,8 @@ margin: 20px 30px 20px 20px;
 
 #AltmerText{
 	
-float:left;
-margin:0px 0px 0px 150px;
+float:right;
+margin: 0px 300px 0px 0px;
 	
 	
 }
@@ -115,9 +133,22 @@ margin:0px 0px 0px 150px;
 
 #BosmerText{
 	float:right;
-	margin: 0px 150px 0px 0px;
+	margin: 0px 300px 0px 0px;
 	
 }
 
+#BretonText{
+	float:right;
+	margin: 0px 300px 0px 0px;
 
+}
+
+iframe{
+
+top:100px;
+left:0px;
+right:100px;
+down:0px;
+
+}
 	
