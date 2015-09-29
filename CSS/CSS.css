@@ -2,6 +2,27 @@ body {
 	background-color:black;	
 	background-image: url(../Images/Dragonborn.png);
 }
+
+#AltmerBody{
+	
+background-image: url(../Images/HighElf.png);
+position: 50px 50px 0px 0px;	
+	
+}
+
+#ArgonianBody{
+
+background-image: url(../Images/ArgonianBody.png);	
+	
+	
+}
+
+#BosmerBody{
+
+		background-image: url(../Images/BosmerBody.png);	
+	
+	
+}
 	
 h1,h2,h3,h4,h5,h6,p{
 	font-family: Georgia;
@@ -45,6 +66,7 @@ nav a:hover{ /* How it looks when you hover with muose */
 	border-radius:200px;
 	
 	
+	
 }
 
 
@@ -66,7 +88,36 @@ margin: 20px 30px 20px 20px;
 
 }
 
+#AltmerText{
+	
+float:left;
+margin:0px 0px 0px 150px;
+	
+	
+}
 
+.containerltmer{
+					position:relative;
+	width: 40%;
+	margin: 0px auto 0px auto; /* top right bottom left */
+	border: 20px white solid; /* border-width border-color border-style*/
+	border-radius:200px;
+	float:left;
+	
+}
+
+#ArgonianText{
+		float:left;
+		margin:0px 0px 0px 150px;	
+	
+	
+}
+
+#BosmerText{
+	float:right;
+	margin: 0px 150px 0px 0px;
+	
+}
 
 
 	
