@@ -42,6 +42,11 @@ background-image: url(../Images/ArgonianBody.png);
 
 }
 
+#ImperialBody{
+		background-image: url(../Images/ImperialBody.png);
+
+}
+
 h1,h2,h3,h4,h5,h6,p{
 	font-family: Georgia;
 	font-style: italic; /* Cursive */
@@ -106,7 +111,7 @@ margin: 20px 30px 20px 20px;
 
 }
 
-#AltmerText{
+#AltmerText, #ImperialText{
 	
 float:right;
 margin: 0px 300px 0px 0px;
