@@ -1,10 +1,12 @@
 body {
 	background-color:black;	
 	background-image: url(../Images/Dragonborn.png);
+	
 }
 
 #LoreBody{
 	background-color:black;
+background-image:none;
 
 
 }
@@ -42,11 +44,6 @@ background-image: url(../Images/ArgonianBody.png);
 
 }
 
-#ImperialBody{
-		background-image: url(../Images/ImperialBody.png);
-
-}
-
 h1,h2,h3,h4,h5,h6,p{
 	font-family: Georgia;
 	font-style: italic; /* Cursive */
@@ -81,7 +78,7 @@ nav a:hover{ /* How it looks when you hover with muose */
 	height:76px;
 }
 
-.container1,.container2,.container3,.container4{
+.container1,.container3,.container4{
 	position:relative;
 	width: 92%;
 	margin: 0px auto 0px auto; /* top right bottom left */
@@ -90,6 +87,18 @@ nav a:hover{ /* How it looks when you hover with muose */
 	
 	
 	
+}
+
+.container2{
+
+	position:relative;
+	width: 75%;
+	margin: 0px auto 0px auto;
+	border: 20px white solid; 
+	border-radius:50px;
+
+
+
 }
 
 
@@ -111,7 +120,7 @@ margin: 20px 30px 20px 20px;
 
 }
 
-#AltmerText, #ImperialText{
+#AltmerText{
 	
 float:right;
 margin: 0px 300px 0px 0px;
@@ -154,6 +163,8 @@ top:100px;
 left:0px;
 right:100px;
 down:0px;
+
+border-radius: 0px;
 
 }
 	
