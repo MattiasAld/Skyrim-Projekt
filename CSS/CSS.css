@@ -44,6 +44,11 @@ background-image: url(../Images/ArgonianBody.png);
 
 }
 
+#BethesdaBody{
+		background-image: url(../Images/BethesdaBody.png);
+		position:auto;
+}
+
 h1,h2,h3,h4,h5,h6,p{
 	font-family: Georgia;
 	font-style: italic; /* Cursive */
@@ -78,7 +83,7 @@ nav a:hover{ /* How it looks when you hover with muose */
 	height:76px;
 }
 
-.container1,.container3,.container4{
+.container.container1,.container3,.container4{
 	position:relative;
 	width: 92%;
 	margin: 0px auto 0px auto; /* top right bottom left */
@@ -87,6 +92,16 @@ nav a:hover{ /* How it looks when you hover with muose */
 	
 	
 	
+}
+
+.ContainerLore{
+
+	position:center;
+	width:80%;
+	border: 2px white solid;
+	margin: 0px auto 0px auto;
+	height:auto
+
 }
 
 .container2{
@@ -157,6 +172,24 @@ margin: 0px 300px 0px 0px;
 
 }
 
+#BethesdaText{
+		position:center;
+		margin: 0px 0px 0px 0px;
+		font-size:200%;
+
+}
+
+#FalloutText{
+		position:center;
+		font-family: Georgia;
+		font-style: italic; /* Cursive */
+		
+		margin: 0px 0px 0px 0px;
+		font-size:200%
+
+
+}
+
 iframe{
 
 top:100px;
@@ -165,6 +198,16 @@ right:100px;
 down:0px;
 
 border-radius: 0px;
+
+}
+
+{
+
+top:100px;
+left:10px;
+right:50px;
+down:0px;
+
 
 }
 	
