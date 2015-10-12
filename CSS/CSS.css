@@ -5,10 +5,12 @@ body {
 }
 
 #LoreBody{
-	background-color:black;
-background-image:none;
+	background-image:none;
+	background: linear-gradint(to right, red, blue);
+	
 
 
+ 
 }
 
 
@@ -59,7 +61,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 nav{
-	width: 80%;
+	width: 100%;
 	height: 80px;
 	margin: 10px auto 0px auto;
 }
@@ -96,21 +98,26 @@ nav a:hover{ /* How it looks when you hover with muose */
 
 .ContainerLore{
 
+	background: linear-gradint(to right, red, blue);
 	position:center;
-	width:80%;
-	border: 2px white solid;
-	margin: 0px auto 0px auto;
-	height:auto
+	width:81%;
+	border: 1px gray solid;
+	margin: -10px auto -10px auto;
+	height:auto;
+	border-top:0px;
+	border-bottom:0px;
 
 }
 
 .container2{
 
 	position:relative;
-	width: 75%;
+	width: 92%;
+	height:100%;
 	margin: 0px auto 0px auto;
 	border: 20px white solid; 
 	border-radius:50px;
+	
 
 
 
