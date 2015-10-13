@@ -5,8 +5,9 @@ body {
 }
 
 #LoreBody{
-	background-image:none;
-	background: linear-gradint(to right, red, blue);
+	background-image:url(../Images/LoreBackground.png);
+	background-size:30%;
+	
 	
 
 
@@ -98,10 +99,10 @@ nav a:hover{ /* How it looks when you hover with muose */
 
 .ContainerLore{
 
-	background: linear-gradint(to right, red, blue);
+	background: linear-gradient(to right, black, grey, black);
 	position:center;
 	width:81%;
-	border: 1px gray solid;
+	border: 0.1px gray solid;
 	margin: -10px auto -10px auto;
 	height:auto;
 	border-top:0px;
@@ -135,11 +136,15 @@ margin: 20px 30px 20px 20px;
 }
 
 #Races1{
+	
+
+
+}
+
+.RaceList h1{
 	text-decoration: none;
 	float:left;
 	margin: 25px 0px 0px 50px;
-
-
 }
 
 #AltmerText{
