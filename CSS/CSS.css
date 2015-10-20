@@ -50,7 +50,7 @@ background-image: url(../Images/ArgonianBody.png);
 
 #BethesdaBody{
 		background-image: url(../Images/BethesdaBody.png);
-		position:auto;
+
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -95,16 +95,37 @@ nav h2:hover{ /* How it looks when you hover with muose */
 	height:76px;
 }
 
-.container.container1,.container3,.container4{
+.container , .container1 , .container3 , 	.container4{
 	position:relative;
 	width: 92%;
 	margin: 0px auto 0px auto; /* top right bottom left */
 	border: 20px white solid; /* border-width border-color border-style*/
-	border-radius:50px;
+	border-radius:50px;	
 	
 	
 	
 }
+
+.videoContainer{
+	margin: 0px auto 0px auto; 
+	width: auto; 
+}
+
+#width560{
+	width:560px;
+}
+
+
+#width800{
+	width:800px;
+}
+
+
+#width1120{
+	width:1120px;
+}
+
+
 
 .ContainerLore{
 
@@ -200,10 +221,15 @@ margin: 0px 300px 0px 0px;
 		position:center;
 		font-family: Georgia;
 		font-style: italic; /* Cursive */
-		
 		margin: 0px 0px 0px 0px;
-		font-size:200%
+		font-size:250%;
+		
+}
 
+#KhajiitText{
+		float:left;
+		font-size: 250%;
+		color:white;
 
 }
 
@@ -227,4 +253,5 @@ down:0px;
 
 
 }
+
 	
