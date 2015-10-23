@@ -109,6 +109,7 @@ nav h2:hover{ /* How it looks when you hover with muose */
 .videoContainer{
 	margin: 0px auto 0px auto; 
 	width: auto; 
+	
 }
 
 #width560{
@@ -125,7 +126,19 @@ nav h2:hover{ /* How it looks when you hover with muose */
 	width:1120px;
 }
 
+.GIFContainer{
+	
+	width:auto;
+}
 
+#GIF1{
+	margin: 20px 50px 20px 400px
+}
+
+#GIF2{
+	margin: -225px 50px 20px 1250px
+
+}
 
 .ContainerLore{
 
