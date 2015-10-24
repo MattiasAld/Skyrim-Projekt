@@ -133,7 +133,9 @@ nav h2:hover{ /* How it looks when you hover with muose */
 
 #GIF1{
 	margin: 20px 50px 20px 400px
+
 }
+
 
 #GIF2{
 	margin: -225px 50px 20px 1250px
@@ -146,7 +148,7 @@ nav h2:hover{ /* How it looks when you hover with muose */
 	position:center;
 	width:81%;
 	border: 0.1px gray solid;
-	margin: -10px auto -10px auto;
+	margin: -35px auto -100px auto;
 	height:auto;
 	border-top:0px;
 	border-bottom:0px;
@@ -266,5 +268,13 @@ down:0px;
 
 
 }
+
+#SkyrimTheme{
+	height:0px;
+	width:0px;
+	border:1px black solid;
+	
+}
+
 
 	
