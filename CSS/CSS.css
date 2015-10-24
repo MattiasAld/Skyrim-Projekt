@@ -4,6 +4,10 @@ body {
 	
 }
 
+.site{
+		overflow-x:hidden;
+}
+
 #LoreBody{
 	background-image:url(../Images/LoreBackground.png);
 	background-size:30%;
@@ -132,13 +136,13 @@ nav h2:hover{ /* How it looks when you hover with muose */
 }
 
 #GIF1{
-	margin: 20px 50px 20px 400px
+	margin: 20px 50px 20px 200px
 
 }
 
 
 #GIF2{
-	margin: -225px 50px 20px 1250px
+	margin: -225px 50px 20px 800px
 
 }
 
